@@ -9,7 +9,7 @@ exports_files(["LICENSE"])
 
 # The path to OpenCV is a combination of the path set for "macos_opencv"
 # in the WORKSPACE file and the prefix here.
-PREFIX = "opt/opencv@3"
+PREFIX = "opt/opencv" #changed, even though is a opencv4 installation
 
 cc_library(
     name = "opencv",
